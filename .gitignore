@@ -70,3 +70,4 @@ yarn-error.log
 
 # Jetbrains folder
 .idea
+/src/assets/cv.pdf
