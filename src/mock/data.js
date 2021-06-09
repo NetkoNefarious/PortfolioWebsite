@@ -1,5 +1,4 @@
 import { nanoid } from 'nanoid';
-import moment from 'moment';
 import MyResume from '../assets/cv.pdf';
 
 // HEAD DATA
@@ -21,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `My name is Jakov Magazin. I come from Betina, Murter island, Croatia. 
-  I'm ${moment(process.env.BIRTH_DATE, 'YYYY-MM-DD').fromNow(true)} old.
+  I'm 25 old.
   I have a bachelor's degree in Information Technology from the University of Split.`,
   paragraphTwo:
     'I have experience in different technologies and languages such as ' +
