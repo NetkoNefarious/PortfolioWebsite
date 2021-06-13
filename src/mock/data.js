@@ -39,7 +39,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'uni.png',
     title: 'Travel agency website - project Webstart',
     info:
       'I got an award from the Croatian Chamber of Economy in 2018 in Split ' +
@@ -53,7 +53,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'web3j.png',
     title: 'Ethereum client through Spring Boot',
     info:
       'To get some experience for blockchain, I used Web3j and Spring Boot to make ' +
