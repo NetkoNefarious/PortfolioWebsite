@@ -12,14 +12,14 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Jakov',
-  subtitle: "I'm a developer from Betina, Croatia",
+  subtitle: "I'm a developer from Betina, Croatia, currently living in Split.",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: `My name is Jakov Magazin. I come from Betina, Murter island, Croatia. 
+  img: 'profile.JPG',
+  paragraphOne: `My name is Jakov Magazin. I come from Betina, Croatia and I'm currently residing in Split. 
   I'm 25 old.
   I have a bachelor's degree in Information Technology from the University of Split.`,
   paragraphTwo:
