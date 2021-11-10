@@ -20,18 +20,16 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.JPG',
   paragraphOne: `My name is Jakov Magazin. I come from Betina, Croatia and I'm currently residing in Split. 
-  I'm 25 old.
-  I have a bachelor's degree in Information Technology from the University of Split.`,
+  I'm 25 old and I'm currently finishing on my master's degree in Computer Science from the University of Split.`,
   paragraphTwo:
     'I have experience in different technologies and languages such as ' +
-    'C#, Javascript, Java, PHP, and I have been currently focusing on web technologies, ' +
-    'both frontend (React) and backend (Symfony, NodeJs, GraphQL...). ' +
-    'I used to work at GetByBus on their system and would like to find something else.',
+    'C#, Javascript, TypeScript, Scala, Java etc. ' +
+    'Currently I work as a programmer at Code Vibe on their systems.',
   paragraphThree:
     'I am a naturally curious person, I like learning about new stuff and am willing to help. ' +
     'As I previously said, I have experience with frontend and backend web technologies, ' +
-    'with C#, Javascript, PHP and React. I also like learning about other areas of computer science, ' +
-    "as I've done work with WPF desktop applications, video games with Unity, console apps etc.",
+    'with Scala, PHP, JS/TS and React. I also like learning about other areas of computer science, ' +
+    'e.g. functional programming, video games with Unity, cross-platform development etc.',
   resume: MyResume, // if no resume, the button will not show up
 };
 
@@ -85,6 +83,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/NetkoNefarious',
+    },
+    {
+      id: nanoid(),
+      name: 'blog',
+      url: 'https://netkonefarious.github.io',
     },
   ],
 };
